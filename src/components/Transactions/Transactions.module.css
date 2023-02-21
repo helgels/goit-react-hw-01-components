@@ -1,0 +1,23 @@
+table {
+    width: 55%;
+    margin: 25px auto 50px auto;
+}
+
+thead {
+    background-color:coral;
+    border: none;
+    height: 40px;
+}
+
+td {
+    text-align: center;
+    padding: 7px;
+}
+
+tbody tr:nth-child(even) {
+    background-color:rgb(229, 150, 121);
+}
+
+.capitilize {
+    text-transform: capitalize;
+}
