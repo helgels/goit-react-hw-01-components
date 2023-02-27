@@ -1,5 +1,5 @@
-import css from "./Statistics.module.css";
-import PropTypes from "prop-types";
+import css from './Statistics.module.css';
+import PropTypes from 'prop-types';
 
 export default function Statistics({ title, stats }) {
   return (
@@ -22,4 +22,3 @@ Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(PropTypes.object),
 };
-    

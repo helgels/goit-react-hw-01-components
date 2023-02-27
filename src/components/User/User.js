@@ -1,5 +1,5 @@
-import css from "./User.module.css";
-import PropTypes from "prop-types";
+import css from './User.module.css';
+import PropTypes from 'prop-types';
 
 export default function User({ username, tag, location, avatar, stats }) {
   return (
